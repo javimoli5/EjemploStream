@@ -1,6 +1,8 @@
 package es.maestredam;
 import java.io.File;
-
+/**
+ * @author Javier
+ */
 public class FUtil {
 	
 	/**
