@@ -16,11 +16,11 @@ public class LeerPersonasApp {
 			
 			for (int i = 0; i < 4 ; i++){
 				String nombre = dis.readUTF();
-				System.out.printf(nombre,"%s  ");	
+				System.out.printf("%s  ", nombre);	
 				boolean edad = dis.readBoolean();
-				System.out.printf(edad,"%b  ");
-				int saldo = dis.readInt();
-				System.out.printf(saldo,"%d%n");
+				System.out.printf("%b  ",edad);
+				double saldo = dis.readDouble();
+				System.out.println(saldo);
 			}
 			
 			

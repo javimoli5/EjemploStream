@@ -12,7 +12,7 @@ public class EscribirPersonasApp {
 		
 		String  [] nombres 	= {"Javier", "Juan", "Marcos", "Luis"};
 		boolean [] edades 	= {true, false, false, true};
-		double  [] saldos	= {1500.75, 1266.34, 1492,60, 1110.55};
+		double  [] saldos	= {1500.75, 1266.34, 1492.60, 1110.55};
 		
 		try (DataOutputStream dos = new DataOutputStream(
 				new FileOutputStream(FICHERO))) {
